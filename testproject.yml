@@ -1,3 +1,11 @@
+spring:
+  profile: dev
 kasi:
   test:
     message: 'Hello World from kasi!!'
+---
+spring:
+  profile: qa
+kasi:
+  test:
+    message: 'Hellow QA world from Kasi!!!'
